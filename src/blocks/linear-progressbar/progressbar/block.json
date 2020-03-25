@@ -1,0 +1,51 @@
+{
+  "name": "blockspare/blockspare-skillbar",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "blockID": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string",
+      "default": "Enter title"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#404040"
+    },
+
+    "percentageTextColor": {
+      "type": "string",
+      "default": "#8b249c"
+    },
+    "textSize": {
+      "type": "number",
+      "default": 20
+    },
+    "percentage": {
+      "type": "number",
+      "default": 25
+    },
+
+    "sectionAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "barColor": {
+      "type": "string",
+      "default": "#3c1a5b"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#f6f6f6"
+    },
+    "barThickness": {
+      "type": "number",
+      "default": 2
+    }
+  }
+}

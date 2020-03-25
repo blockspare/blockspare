@@ -1,0 +1,63 @@
+{
+  "name": "blockspare/blockspare-pricing-inner-price",
+  "category": "blockspare",
+  "attributes": {
+    "sectionAlignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "price": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "fontSize": {
+      "type": "string"
+    },
+    "customFontSize": {
+      "type": "number",
+      "default": 32
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "customTextColor": {
+      "type": "string",
+      "default": "#af0000"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "customBackgroundColor": {
+      "type": "string"
+    },
+    "term": {
+      "type": "string"
+    },
+    "showTerm": {
+      "type": "boolean",
+      "default": true
+    },
+    "showCurrency": {
+      "type": "boolean",
+      "default": true
+    },
+    "paddingTop": {
+      "type": "number",
+      "default": 10
+    },
+    "paddingRight": {
+      "type": "number",
+      "default": 20
+    },
+    "paddingBottom": {
+      "type": "number",
+      "default": 10
+    },
+    "paddingLeft": {
+      "type": "number",
+      "default": 20
+    }
+  }
+}

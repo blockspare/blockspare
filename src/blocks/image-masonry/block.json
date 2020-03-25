@@ -1,0 +1,11 @@
+{
+  "name": "blockspare/blockspare-masonry",
+  "category": "blockspare",
+  "attributes": {
+    "gridSize": {
+      "type": "string",
+      "default": "xlrg"
+    }
+
+  }
+}

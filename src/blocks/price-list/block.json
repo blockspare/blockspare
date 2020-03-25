@@ -1,0 +1,30 @@
+{
+  "name": "blockspare/blockspare-price-list",
+  "category": "blockspare",
+  "attributes": {
+    "align": {
+      "type": "string"
+    },
+    "sectionAlignment": {
+      "type": "string",
+      "default": "wide"
+    },
+    "uniqueId": {
+      "type": "string",
+      "default": ""
+    },
+    "defaultItems": {
+      "type": "number",
+      "default": 3
+    },
+    "backgroundColor":{
+      "type": "string",
+      "default": "#fff"
+    },
+    "backgroundTransparent": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+
+}

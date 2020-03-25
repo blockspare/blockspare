@@ -1,0 +1,69 @@
+{
+  "name": "blockspare/blockspare-testimonial-item",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+
+    "testimonialDescription": {
+      "type": "string",
+      "default": "Donec odit magni, nesciunt pariatur! Nec, purus voluptate ridiculus odit nobis euismod, ac laudantium facere perferendis! "
+    },
+    "testimonialDescriptionTextSize": {
+      "type": "number",
+      "default": 18
+    },
+
+    "testimonialDescriptionTextColor": {
+      "type": "string",
+      "default": "#6d6d6d"
+    },
+
+    "blockID": {
+      "type": "string",
+      "default": ""
+    },
+    "starCount": {
+      "type": "number",
+      "default": 5
+    },
+    "starSize": {
+      "type": "number",
+      "default": 20
+    },
+    "starColor": {
+      "type": "string",
+      "default": "#fbd012"
+    },
+    "selectedStars": {
+      "type": "number",
+      "default": 3
+    },
+    "emptyStarColor": {
+      "type": "string",
+      "default": "#d5d3d3"
+    },
+    "enableRatings": {
+      "type": "boolean",
+      "default": false
+    },
+    "backGroundColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "headermarginTop": {
+      "type": "number",
+      "default": 5
+    },
+
+    "headermarginBottom": {
+      "type": "number",
+      "default": 5
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    }
+  }
+}

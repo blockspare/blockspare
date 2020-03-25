@@ -1,0 +1,88 @@
+{
+  "name": "blockspare/blockspare-service-item",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+
+    "serviceDescription": {
+      "type": "string",
+      "default": "Donec odit magni, nesciunt pariatur! Nec, purus voluptate ridiculus odit nobis euismod, ac laudantium facere perferendis! "
+    },
+    "serviceDescriptionTextSize": {
+      "type": "number",
+      "default": 18
+    },
+
+    "serviceDescriptionTextColor": {
+      "type": "string",
+      "default": "#6d6d6d"
+    },
+
+    "blockID": {
+      "type": "string",
+      "default": ""
+    },
+    "backGroundColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "headermarginTop": {
+      "type": "number",
+      "default": 5
+    },
+
+    "headermarginBottom": {
+      "type": "number",
+      "default": 5
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 50
+    },
+
+    "boxBorderRadious": {
+      "type": "number",
+      "default": 0
+    },
+
+
+    "showImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "imgIconOption": {
+      "type": "string",
+      "default": "icon"
+    },
+    "name": {
+      "type": "string",
+      "default": "fas fa-chart-line"
+    },
+    "iconSize": {
+      "type": "string",
+      "default": "blockspare-icon-size-small"
+    },
+    "iconStyles": {
+      "type": "string",
+      "default": "blockspare-icon-style2"
+    },
+    "iconBackgroundColor":{
+      "type":"string"
+
+    },
+    "iconBorderColor":{
+      "type":"string",
+      "default":"#000"
+    },
+    "iconColor":{
+      "type":"string"
+
+    },
+    "enableButton": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

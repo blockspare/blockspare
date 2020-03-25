@@ -1,0 +1,101 @@
+{
+  "name": "blockspare/blockspare-counter",
+  "category": "blockspare",
+  "attributes": {
+      "className": {
+        "type": "string"
+      },
+
+      "counter": {
+        "type": "number",
+        "default": 25
+      },
+
+      "counterFontColor": {
+        "type": "string",
+        "default": "#000"
+      },
+
+      "backGroundColor": {
+        "type": "string",
+        "default": "#fff"
+      },
+
+      "imageSize": {
+        "type": "string",
+        "default": "full"
+      },
+
+      "showImage": {
+        "type": "boolean",
+        "default": true
+      },
+      "imgIconOption": {
+        "type": "string",
+        "default": "icon"
+      },
+      "name": {
+        "type": "string",
+        "default": "fas fa-chart-line"
+      },
+      "iconSize": {
+        "type": "string",
+        "default": "blockspare-icon-size-small"
+      },
+      "iconStyles": {
+        "type": "string",
+        "default": "blockspare-icon-style2"
+      },
+      "iconBackgroundColor":{
+        "type":"string"
+
+      },
+      "iconBorderColor":{
+        "type":"string",
+        "default":"#000"
+      },
+      "iconColor":{
+        "type":"string"
+
+      },
+      "borderRadius":{
+        "type":"number",
+        "default": 50
+      },
+      "design": {
+        "type": "string",
+        "default": "blockspare-layout1"
+      },
+      "blockBorderRadius":{
+        "type":"number",
+        "default": 0
+      },
+      "headertitleColor": {
+        "type": "string",
+        "default": "#000"
+      },
+      "headersubtitleColor": {
+        "type": "string",
+        "default": "#000"
+      },
+      "headermarginTop": {
+        "type": "number",
+        "default": 5
+      },
+
+      "headermarginBottom": {
+        "type": "number",
+        "default": 5
+      },
+      "paddingTop": {
+        "type": "number",
+        "default": 20
+      },
+
+      "paddingBottom": {
+        "type": "number",
+        "default": 20
+      }
+
+    }
+  }

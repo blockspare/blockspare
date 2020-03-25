@@ -1,0 +1,49 @@
+{
+  "name": "blockspare/blockspare-tabs",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "tabs": {
+      "type": "number",
+      "default": 3
+    },
+    "tabTitles": {
+      "type": "array",
+      "default": [
+        { "title": "Tab 1" },
+        { "title": "Tab 2" },
+        { "title": "Tab 3" }
+      ]
+    },
+    "tabStyle": {
+      "type": "string",
+      "default": "blockspare-horizontal"
+    },
+    "tabLayout": {
+      "type": "string",
+      "default": "blockspare-layout1"
+    },
+    "tabBackGroundColor": {
+      "type": "string",
+      "default": "#3c1a5b"
+    },
+    "activeTabBackgroundColor": {
+      "type": "string",
+      "default": "#8b249c"
+    },
+    "tabTextColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "activetabTextColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "tabAlignment": {
+      "type": "string",
+      "default": "blockspare-left"
+    }
+  }
+}

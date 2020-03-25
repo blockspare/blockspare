@@ -1,0 +1,28 @@
+{
+  "name": "blockspare/blockspare-testimonial",
+  "category": "blockspare",
+  "attributes": {
+    "serviceItems": {
+      "type": "number",
+      "default": 2
+    },
+    "columns": {
+      "type": "number",
+      "default": 2
+    },
+    "columnsGap": {
+      "type": "number",
+      "default": 1
+    },
+    "align": {
+      "type": "string",
+      "default": "wide"
+    },
+    "defaultItems": {
+      "type": "number",
+      "default": 2
+    }
+
+  }
+
+}

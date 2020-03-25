@@ -1,0 +1,125 @@
+{
+  "name": "blockspare/user-profile",
+  "category": "blockspare",
+  "attributes": {
+    "profileContent": {
+      "type": "string",
+      "default": "Add your content..."
+    },
+    "profileContentFontSize": {
+      "type": "number",
+      "default": 18
+    },
+    "sectionAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+
+    "profileBackgroundColor": {
+      "type": "string",
+      "default": "#f2f2f2"
+    },
+    "profileTextColor": {
+      "type": "string",
+      "default": "#6d6d6d"
+    },
+    "facebook": {
+      "type": "url",
+      "default": "facebook.com"
+    },
+    "twitter": {
+      "type": "url",
+      "default": "twitter.com"
+    },
+    "instagram": {
+      "type": "url"
+    },
+    "linkedin": {
+      "type": "url",
+      "default": "linkedin.com"
+    },
+    "youtube": {
+      "type": "url"
+
+    },
+    "paddingTop": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingRight": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 0
+    },
+
+    "marginBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "iconColorOption":{
+      "type":"string",
+      "default": "blockspare-default-official-color"
+    },
+    "customfontColorOption":{
+      "type":"string",
+      "default":"#fff"
+    },
+    "custombackgroundColorOption":{
+      "type":"string",
+      "default":"#404040"
+    },
+    "buttonShapes":{
+      "type":"string",
+      "default":"blockspare-social-icon-square"
+    },
+    "buttonSizes":{
+      "type":"string",
+      "default":"blockspare-social-icon-small"
+    },
+
+    "buttonFills":{
+      "type":"string",
+      "default": "blockspare-social-icon-solid"
+    },
+    "headerpaddingTop": {
+      "type": "number",
+      "default": 0
+    },
+    "headerpaddingRight": {
+      "type": "number",
+      "default": 0
+    },
+    "headerpaddingBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "headerpaddingLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "headermarginTop": {
+      "type": "number",
+      "default": 0
+    },
+
+    "headermarginBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    }
+  }
+}

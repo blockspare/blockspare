@@ -1,0 +1,45 @@
+{
+  "name": "blockspare/blockspare-star-ratings",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+
+    "starAlign": {
+      "type": "string",
+      "default": "center"
+    },
+
+    "blockID": {
+      "type": "string",
+      "default": ""
+    },
+    "starCount": {
+      "type": "number",
+      "default": 5
+    },
+    "starSize": {
+      "type": "number",
+      "default": 20
+    },
+    "starColor": {
+      "type": "string",
+      "default": "#fbd012"
+    },
+    "selectedStars": {
+      "type": "number",
+      "default": 5
+    },
+    "emptyStarColor": {
+      "type": "string",
+      "default": "#d5d3d3"
+    },
+
+    "backgroundColor": {
+      "type": "string",
+      "default": "transparent"
+    }
+
+  }
+}

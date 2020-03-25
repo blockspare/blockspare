@@ -1,0 +1,80 @@
+{
+  "name": "blockspare/blockspare-notice-bar",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+
+    "sectionAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+
+    "textsColor": {
+      "type": "string",
+      "default": "#4c4c4c"
+    },
+    "fontSize": {
+      "type": "number",
+      "default": 18
+    },
+
+    "backGroundColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+
+    "boxBorderColor": {
+      "type": "string",
+      "default": "#cc0000"
+    },
+    "noticeContent": {
+      "type": "string",
+      "default": "Add your notice here...."
+
+    },
+
+    "paddingTop": {
+      "type": "number",
+      "default": 10
+    },
+    "paddingRight": {
+      "type": "number",
+      "default": 20
+    },
+    "paddingBottom": {
+      "type": "number",
+      "default": 10
+    },
+    "paddingLeft": {
+      "type": "number",
+      "default": 20
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+
+    "enableButton": {
+      "type": "boolean",
+      "default": false
+    },
+
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    }
+
+
+  }
+}

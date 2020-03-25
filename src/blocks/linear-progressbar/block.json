@@ -1,0 +1,14 @@
+{
+  "name": "blockspare/blockspare-linearprogressbar",
+  "category": "blockspare",
+  "attributes": {
+    "uniqueId": {
+      "type": "string",
+      "default": ""
+    },
+    "defaultItems": {
+      "type": "number",
+      "default": 3
+    }
+  }
+}

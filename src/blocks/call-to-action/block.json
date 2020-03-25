@@ -1,0 +1,67 @@
+{
+  "name": "blockspare/blockspare-call-to-action",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+    "sectionAlignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "showImage": {
+      "type":"boolean",
+      "default": true
+    },
+    "imgURL": {
+      "type": "string"
+    },
+    "imgID": {
+      "type": "number"
+    },
+    "imgAlt": {
+      "type": "string"
+    },
+    "opacityRatio": {
+      "type": "number",
+      "default": 75
+    },
+    "ctaBackGroundColor": {
+      "type": "string",
+      "default": "#0e0e0e"
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "headerTagOption": {
+      "type": "string",
+      "default": "h2"
+    },
+    "backgroundFix": {
+      "type": "boolean",
+      "default": false
+    },
+    "headertitleColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "headersubtitleColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "headermarginTop": {
+      "type": "number",
+      "default": 5
+    },
+
+    "headermarginBottom": {
+      "type": "number",
+      "default": 5
+    }
+  }
+}

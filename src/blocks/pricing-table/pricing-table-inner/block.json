@@ -1,0 +1,69 @@
+{
+  "name": "blockspare/blockspare-pricing-inner",
+  "category": "blockspare",
+  "attributes": {
+    "borderWidth": {
+      "type": "number",
+      "default": 1
+    },
+    "borderColor": {
+      "type": "string",
+      "default": "#ececec"
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "alignment": {
+      "type": "string"
+    },
+    "padding": {
+      "type": "number"
+    },
+    "sectionScale":{
+      "type":"number",
+      "default":0
+    },
+    "enableBadge": {
+      "type": "boolean",
+      "default": false
+    },
+    "badgeText": {
+      "type": "string",
+      "default": "Badge Text"
+    },
+    "badgeStyle": {
+      "type": "string",
+      "default": "blockspare-badge-style1"
+    },
+    "badgeOption": {
+      "type": "string",
+      "default": "badge-text"
+    },
+    "imgURL1": {
+      "type": "string"
+    },
+    "imgID1": {
+      "type": "number"
+    },
+    "imgAlt1": {
+      "type": "string"
+    },
+    "badgeTextColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "badgeBackGroundColor": {
+      "type": "string",
+      "default": "#af0000"
+    },
+    "badgeImgSize": {
+      "type": "number",
+      "default": 100
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name":"blockspare/blockspare-pricing",
+  "category":"blockspare",
+  "attributes": {
+    "columns": {
+      "type": "number",
+      "default": 2
+    },
+    "columnsGap": {
+      "type": "number",
+      "default": 1
+    },
+    "align": {
+      "type": "string"
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "string"
+    },
+    "sectionAlignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    }
+  }
+}

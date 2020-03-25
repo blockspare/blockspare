@@ -1,0 +1,37 @@
+{
+    "name": "blockspare/blockspare-logos",
+    "category": "blockspare",
+    "attributes": {
+    "align": {
+        "type": "string"
+    },
+    "images": {
+        "type": "array",
+            "default": [],
+            "selector": "img",
+            "query": {
+            "url": {
+                "type": "string",
+                    "source": "attribute",
+                    "attribute": "src"
+            },
+            "alt": {
+                "type": "string",
+                    "source": "attribute",
+                    "attribute": "alt",
+                    "default": ""
+            },
+            "id": {
+                "type": "string",
+                    "source": "attribute",
+                    "attribute": "data-id"
+            },
+            "width": {
+                "type": "string",
+                    "source": "attribute",
+                    "attribute": "data-width"
+            }
+        }
+    }
+}
+}

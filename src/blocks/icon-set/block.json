@@ -1,0 +1,45 @@
+{
+  "name": "blockspare/blockspare-iconset",
+  "category": "blockspare",
+  "attributes": {
+
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+
+    "sectionAlignment": {
+      "type": "string",
+      "default": "center"
+    },
+
+    "name": {
+      "type": "string",
+      "default": "fas fa-rocket"
+    },
+    "iconSize": {
+      "type": "string",
+      "default": "blockspare-icon-size-small"
+    },
+    "iconStyles": {
+      "type": "string",
+      "default": "blockspare-icon-style2"
+    },
+    "iconBackgroundColor":{
+      "type":"string",
+      "default":"#8b249c"
+    },
+    "iconBorderColor":{
+      "type":"string",
+      "default":"#8b249c"
+    },
+    "iconColor":{
+      "type":"string",
+      "default":"#fff"
+    },
+    "borderRadius":{
+      "type":"number",
+      "default": 50
+    }
+  }
+}

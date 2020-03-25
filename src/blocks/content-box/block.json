@@ -1,0 +1,126 @@
+{
+  "name": "blockspare/content-box",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+
+    "sectionAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+
+    "sectionDescription": {
+      "type": "string",
+      "default": "Add your description here..."
+    },
+
+    "showContentImg": {
+      "type": "boolean",
+      "default": true
+    },
+    "imgURL": {
+      "type": "string",
+      "default": false
+    },
+
+    "imgID": {
+      "type": "number"
+    },
+    "imgAlt": {
+      "type": "string",
+      "source": "attribute",
+      "attribute": "alt",
+      "selector": "img"
+    },
+
+    "showButton": {
+      "type": "boolean",
+      "default": false
+    },
+
+    "enableBackgroundColor": {
+      "type": "boolean",
+      "default": true
+    },
+
+    "backGroundColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+
+    "titleColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": "#6d6d6d"
+    },
+
+    "layoutOption": {
+      "type": "boolean",
+      "default": false
+    },
+    "imageShape": {
+      "type": "string",
+      "default": ""
+    },
+    "design": {
+      "type": "string",
+      "default": "style-1"
+    },
+    "headerpaddingTop": {
+      "type": "number",
+      "default": 0
+    },
+    "headerpaddingRight": {
+      "type": "number",
+      "default": 0
+    },
+    "headerpaddingBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "headerpaddingLeft": {
+      "type": "number",
+      "default": 0
+    },
+    "headermarginTop": {
+      "type": "number",
+      "default": 0
+    },
+
+    "headermarginBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingTop": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingRight": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingBottom": {
+      "type": "number",
+      "default": 0
+    },
+    "paddingLeft": {
+      "type": "number",
+      "default": 0
+    }
+  }
+}

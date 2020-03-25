@@ -1,0 +1,211 @@
+{
+  "name": "blockspare/blockspare-social-links",
+  "category": "blockspare",
+  "attributes": {
+    "sectionAlignment": {
+      "type": "string",
+      "default": "center"
+    },
+
+
+    "facebookTitle": {
+      "type": "string",
+      "default": "Facebook"
+
+    },
+
+    "facebookUrl": {
+      "type": "url",
+      "default": "https://facebook.com"
+
+    },
+
+    "twitterTitle": {
+      "type": "string",
+      "default": "Twitter"
+    },
+
+    "twitterUrl": {
+      "type": "url",
+      "default": "https://twitter.com"
+    },
+
+    "instagramTitle": {
+      "type": "string",
+      "default": "Instagram"
+    },
+
+    "instagramUrl": {
+      "type": "url",
+      "default": "https://instagram.com"
+    },
+
+
+
+    "youtubeTitle": {
+      "type": "string",
+      "default": "YouTube"
+
+    },
+
+    "youtubeUrl": {
+      "type": "url",
+      "default": ""
+
+    },
+
+    "linkedinTitle": {
+      "type": "string",
+      "default": "LinkedIn"
+    },
+
+    "linkedinUrl": {
+      "type": "url"
+    },
+
+    "pinterestTitle": {
+      "type": "string",
+      "default": "Pinterest"
+
+    },
+
+    "pinterestUrl": {
+      "type": "url"
+
+
+    },
+
+    "tumblrTitle": {
+      "type": "string",
+      "default": "Tumblr"
+
+    },
+
+    "tumblrUrl": {
+      "type": "url"
+
+
+    },
+
+    "telegramTitle": {
+      "type": "string",
+      "default": "Telegram"
+
+    },
+
+    "telegramUrl": {
+      "type": "url"
+    },
+
+    "redditTitle": {
+      "type": "string",
+      "default": "Reddit"
+
+    },
+
+
+    "redditUrl": {
+      "type": "url"
+    },
+
+
+    "flickrTitle": {
+      "type": "string",
+      "default": "Flickr"
+
+
+    },
+    "flickrUrl": {
+      "type": "url"
+    },
+
+    "dribbbleTitle": {
+      "type": "string",
+      "default": "Dribbble"
+    },
+
+
+    "dribbbleUrl": {
+      "type": "url"
+    },
+
+
+    "vkTitle": {
+      "type": "string",
+      "default": "VK"
+    },
+
+    "vkUrl": {
+      "type": "url"
+    },
+
+    "yelpTitle": {
+      "type": "string",
+      "default": "Yelp"
+    },
+
+    "yelpUrl": {
+      "type": "url"
+    },
+
+    "quoraTitle": {
+      "type": "string",
+      "default": "Quora"
+    },
+
+    "quoraUrl": {
+      "type": "url"
+    },
+
+    "meetupTitle": {
+      "type": "string",
+      "default": "Meetup"
+
+
+    },
+
+    "meetupUrl": {
+      "type": "url"
+    },
+
+
+    "githubTitle": {
+      "type": "url",
+      "default": "Git hub"
+    },
+
+    "githubUrl": {
+      "type": "url"
+    },
+
+    "buttonOptions":{
+      "type":"string",
+      "default": "blockspare-icon-only"
+    },
+
+    "buttonFills":{
+      "type":"string",
+      "default": "blockspare-social-icon-solid"
+    },
+    "iconColorOption":{
+      "type":"string",
+      "default": "blockspare-default-official-color"
+    },
+    "customfontColorOption":{
+      "type":"string",
+      "default":"#fff"
+    },
+    "custombackgroundColorOption":{
+      "type":"string",
+      "default":"#404040"
+    },
+    "buttonShapes":{
+      "type":"string",
+      "default":"blockspare-social-icon-square"
+    },
+    "buttonSizes":{
+      "type":"string",
+      "default":"blockspare-social-icon-small"
+    }
+  }
+}

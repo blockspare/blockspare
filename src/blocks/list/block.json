@@ -1,0 +1,50 @@
+{
+  "name": "blockspare/blockspare-list",
+  "category": "blockspare",
+    "attributes": {
+      "className": {
+        "type": "string"
+      },
+      "align": {
+        "type": "string",
+        "default": "left"
+      },
+
+      "sectionAlignment": {
+        "type": "string",
+        "default": "left"
+      },
+      "listBackGroundColor": {
+        "type": "string"
+      },
+
+      "name": {
+        "type": "string",
+        "default": "blockspare-list-check"
+      },
+
+      "listData":{
+        "type": "string",
+        "source": "html",
+        "selector": "ol,ul",
+        "multiline": "li",
+        "default": "<li>Vestibulum ac diam sit amet</li>"
+      },
+      "listType":{
+        "type":"string",
+        "default":"ul"
+      },
+      "orderListStyle":{
+        "type":"string",
+        "default":"blockspare-style1"
+      },
+      "color":{
+        "type":"string",
+        "default":"#000"
+      },
+      "borderRadius": {
+        "type": "number",
+        "default": 0
+      }
+    }
+}

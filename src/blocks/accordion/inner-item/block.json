@@ -1,0 +1,68 @@
+{
+  "category": "blockspare",
+  "attributes": {
+    "uniqueId": {
+      "type": "string",
+      "default": ""
+    },
+    "itemNumber": {
+      "type": "number"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Accordion Item"
+    },
+    "active": {
+      "type": "boolean",
+      "default": false
+    },
+    "defaultText": {
+      "type": "string",
+      "default": ""
+    },
+    "fillType": {
+      "type": "string",
+      "default": "fill"
+    },
+    "openFirstItem": {
+      "type": "boolean",
+      "default": true
+    },
+    "name": {
+      "type": "string",
+      "default": "fa fa-plus"
+    },
+    "iconPosition": {
+      "type": "string",
+      "default": "blockspare-right"
+    },
+    "panelColor": {
+      "type": "string",
+      "default": "#3c1a5b"
+
+    },
+    "panelActiveColor": {
+      "type": "string",
+      "default": "#8b249c"
+    },
+    "textColor": {
+      "type":"string",
+      "default": "#fff"
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": "10"
+    },
+    "activeTextColor": {
+      "type": "string",
+      "default":"#fff"
+    },
+    "panelBackGroundColor": {
+      "type": "string",
+      "default":"#fff"
+    }
+  }
+  
+}
+
+

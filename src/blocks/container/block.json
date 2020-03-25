@@ -1,0 +1,70 @@
+{
+  "name": "blockspare/blockspare-container",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+    "imgURL": {
+      "type": "string"
+    },
+    "imgID": {
+      "type": "number"
+    },
+    "imgAlt": {
+      "type": "string"
+    },
+    "opacityRatio": {
+      "type": "number",
+      "default": 100
+    },
+    "backGroundColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "backgroundFix": {
+      "type": "boolean",
+      "default": false
+    },
+    "separatorEnable": {
+      "type": "boolean",
+      "default": false
+    },
+    "showFront": {
+      "type": "boolean",
+      "default": false
+    },
+    "zindexDivider": {
+      "type": "number",
+      "default": 20
+    },
+    "verticalFlip": {
+      "type": "boolean",
+      "default": true
+    },
+    "horizontalFlip": {
+      "type": "boolean",
+      "default": false
+    },
+    "dividerPosition": {
+      "type": "string",
+      "default": "has-separator-top"
+    },
+    "topDividerMargin": {
+      "type": "number",
+      "default": 0
+    },
+    "bottomDividerMargin": {
+      "type": "number",
+      "default": 0
+    }
+  }
+}

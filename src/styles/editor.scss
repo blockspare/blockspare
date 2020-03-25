@@ -1,0 +1,26 @@
+.blockspare-inspector-wrapper{
+	> .components-panel__body{
+		margin-top: 16px;
+	    border-bottom: 1px solid #e2e4e7;
+	    box-shadow: 0px 16px 0 #f0f3f5;
+	}
+
+}
+
+.blockspare-inspector-wrapper > .components-panel__body:last-child{
+	margin-bottom: 16px;
+}
+
+.blockspare-inspector-wrapper .components-panel__body-toggle.components-button:focus:not(:disabled):not([aria-disabled=true]){
+	outline: 0;
+}
+
+.blockspare-inspector-wrapper .component-color-indicator{
+	width: 15px;
+    height: 15px;
+    margin-left: 0.5rem;
+    border: 1px solid #404040;
+}
+.blockspare-inspector-wrapper > .components-panel__body>.components-panel__body-title:hover{
+    background: #fdfdfd;
+}

@@ -1,0 +1,47 @@
+{
+  "name": "blockspare/shape-divider",
+  "category": "blockspare",
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "full"
+    },
+    "design": {
+      "type": "string",
+      "default": "double-wave"
+    },
+    "layer1Shadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "width": {
+      "type": "number",
+      "default": 1
+    },
+    "height": {
+      "type": "number",
+      "default": 150
+    },
+    "verticalFlip": {
+      "type": "boolean",
+      "default": false
+    },
+    "horizontalFlip": {
+      "type": "boolean",
+      "default": false
+    },
+    "color": {
+      "type": "string",
+      "default": "#3c1a5b"
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "name": "blockspare/blockspare-price-list-item",
+  "category": "blockspare",
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "sectionAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "priceTitle": {
+      "type": "string",
+      "default": "Enter Title"
+    },
+    "priceDescription": {
+      "type": "string",
+      "default": "Add you item description..."
+    },
+    "priceUnit": {
+      "type": "string",
+      "default": "$"
+
+    },
+    "price": {
+      "type": "string",
+      "default": "100"
+    },
+    "ImgURL": {
+      "type": "string"
+    },
+    "ImgAlt": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "figure img",
+      "attribute": "alt",
+      "default": ""
+    },
+    "ImgID": {
+      "type": "number"
+    },
+
+    "layoutOptions": {
+      "type": "string",
+      "default": "blockspare-layout1"
+    },
+    "imageOption": {
+      "type": "string",
+      "default": "blockspare-img-square"
+    },
+    "priceUnitPosition": {
+      "type": "string",
+      "default": "blockspare-before-price"
+    },
+    "showDots": {
+      "type": "boolean",
+      "default": true
+    },
+    "priceTitleColor":{
+      "type":"string",
+      "default":"#404040"
+    },
+    "priceColor":{
+      "type":"string",
+      "default":"#af0000"
+    },
+    "priceUnitColor":{
+      "type":"string",
+      "default":"#af0000"
+    },
+    "priceDescriptionColor":{
+      "type":"string",
+      "default":"#6d6d6d"
+    },
+    "backgroundColor":{
+      "type":"string",
+      "default":"#fff"
+    },
+
+    "showImage": {
+      "type": "boolean",
+      "default": true
+    },
+
+    "imgIconOption": {
+      "type": "string",
+      "default": "image"
+    },
+
+    "name": {
+      "type": "string",
+      "default": "fas fa-rocket"
+    },
+    "iconSize": {
+      "type": "string",
+      "default": "blockspare-icon-size-small"
+    },
+    "iconStyles": {
+      "type": "string",
+      "default": "blockspare-icon-style2"
+    },
+    "iconBackgroundColor":{
+      "type":"string",
+      "default":"#8b249c"
+    },
+    "iconBorderColor":{
+      "type":"string",
+      "default":"#8b249c"
+    },
+    "iconColor":{
+      "type":"string",
+      "default":"#fff"
+    },
+    "borderRadius":{
+      "type":"number",
+      "default": 50
+    },
+
+    "blockBorderRadius":{
+      "type":"number",
+      "default": 0
+    }
+  }
+}

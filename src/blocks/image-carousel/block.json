@@ -1,0 +1,86 @@
+{
+  "name": "blockspare/blockspare-carousel",
+  "category": "blockspare",
+  "attributes": {
+    "align": {
+      "type": "string"
+    },
+    "images": {
+      "type": "array",
+      "default": [],
+      "selector": "img",
+      "query": {
+        "url": {
+          "type": "string",
+          "source": "attribute",
+          "attribute": "src"
+        },
+        "alt": {
+          "type": "string",
+          "source": "attribute",
+          "attribute": "alt",
+          "default": ""
+        },
+        "id": {
+          "type": "string",
+          "source": "attribute",
+          "attribute": "data-id"
+        },
+        "width": {
+          "type": "string",
+          "source": "attribute",
+          "attribute": "data-width"
+        }
+      }
+    },
+    "imageSize": {
+      "type": "string",
+      "default": "thumbnail"
+    },
+    "showsliderNextPrev":{
+      "type": "boolean",
+      "default": true
+    },
+    "showDots":{
+      "type": "boolean",
+      "default": false
+    },
+    "numberofSlide":{
+      "type": "number",
+      "default": 2
+    },
+    "enableAutoPlay": {
+      "type": "boolean",
+      "default": true
+    },
+    "carouselSpeed":{
+      "type": "number",
+      "default": "1000"
+    },
+    "carouselNextIcon":{
+      "type": "string",
+      "default": "fas fa-chevron-right"
+    },
+
+    "navigationColor":{
+      "type": "string",
+      "default": "#fff"
+    },
+    "gutterSpace": {
+      "type": "number",
+      "default": 1
+    },
+    "colorFilter": {
+      "type": "string",
+      "default": "blockspare-original"
+    },
+    "showOriginalOnHover": {
+     "type": "boolean",
+      "default": false
+    },
+    "navigationSize": {
+      "type": "string",
+      "default": "blockspare-navigation-small"
+    }
+  }
+}
