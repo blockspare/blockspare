@@ -16,7 +16,7 @@ function blockspare_register_social_sharing_block()
         return;
     }
     ob_start();
-    include BS_PLUGIN_DIR . '/src/blocks/social-sharing/block.json';
+    include BLOCKSPARE_PLUGIN_DIR . '/src/blocks/social-sharing/block.json';
 
     $metadata = json_decode(ob_get_clean(), true);
 

@@ -329,7 +329,7 @@ function blockspare_blocks_register_block_core_latest_posts_grid()
         return;
     }
     ob_start();
-    include BS_PLUGIN_DIR . '/src/blocks/latest-posts-grid/block.json';
+    include BLOCKSPARE_PLUGIN_DIR . '/src/blocks/latest-posts-grid/block.json';
 
     $metadata = json_decode(ob_get_clean(), true);
 

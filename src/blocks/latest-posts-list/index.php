@@ -323,7 +323,7 @@ function blockspare_blocks_register_block_core_latest_posts_list()
     }
 
     ob_start();
-    include BS_PLUGIN_DIR . '/src/blocks/latest-posts-list/block.json';
+    include BLOCKSPARE_PLUGIN_DIR . '/src/blocks/latest-posts-list/block.json';
 
     $metadata = json_decode(ob_get_clean(), true);
 

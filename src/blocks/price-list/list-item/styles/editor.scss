@@ -1,0 +1,40 @@
+.blockspare-price-list-wrap > .blockspare-price-img {
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+}
+.blockspare-price-list-wrap > .blockspare-price-img button.components-button.blockspare-remove-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.blockspare-price-list-wrap > .blockspare-price-img .blockspare-price-list-img.blockspare-img-circle,
+.blockspare-price-list-wrap > .blockspare-price-img .blockspare-price-list-img.blockspare-img-square {
+    position:relative;
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+     -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+.blockspare-price-list-wrap > .blockspare-price-img .blockspare-price-list-img img{
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.blockspare-price-list-wrap > .blockspare-price-img .blockspare-price-list-img.blockspare-img-circle {
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+
+.blockspare-price-list-wrap [data-block] figure > div,
+.blockspare-price-list-wrap [data-block] {
+    line-height: 1;
+}

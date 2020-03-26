@@ -43,10 +43,10 @@
                 /**
                  * Define global constants
                  **/
-                defined('BS_BASE_FILE') or define('BS_BASE_FILE', __FILE__);
-                defined('BS_BASE_DIR') or define('BS_BASE_DIR', dirname(BS_BASE_FILE));
-                defined('BS_PLUGIN_URL') or define('BS_PLUGIN_URL', plugin_dir_url(__FILE__));
-                defined('BS_PLUGIN_DIR') or define('BS_PLUGIN_DIR', plugin_dir_path(__FILE__));
+                defined('BLOCKSPARE_BASE_FILE') or define('BLOCKSPARE_BASE_FILE', __FILE__);
+                defined('BLOCKSPARE_BASE_DIR') or define('BLOCKSPARE_BASE_DIR', dirname(BLOCKSPARE_BASE_FILE));
+                defined('BLOCKSPARE_PLUGIN_URL') or define('BLOCKSPARE_PLUGIN_URL', plugin_dir_url(__FILE__));
+                defined('BLOCKSPARE_PLUGIN_DIR') or define('BLOCKSPARE_PLUGIN_DIR', plugin_dir_path(__FILE__));
                 
                 
                 include_once 'src/init.php';

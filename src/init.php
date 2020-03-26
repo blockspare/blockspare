@@ -20,15 +20,15 @@
             plugins_url('dist/blocks.style.build.css', dirname(__FILE__)),
             array()
         );
-        wp_enqueue_style('slick', BS_PLUGIN_URL . 'src/assets/slick/css/slick.css', array(), '', 'all');
-        wp_enqueue_script('slick-js', BS_PLUGIN_URL . 'src/assets/slick/js/slick.js', array('jquery'), '', true);
-        wp_register_script('countup', BS_PLUGIN_URL . 'src/assets/js/countup/jquery.counterup' . $min . '.js', array('waypoint'), true);
+        wp_enqueue_style('slick', BLOCKSPARE_PLUGIN_URL . 'src/assets/slick/css/slick.css', array(), '', 'all');
+        wp_enqueue_script('slick-js', BLOCKSPARE_PLUGIN_URL . 'src/assets/slick/js/slick.js', array('jquery'), '', true);
+        wp_register_script('countup', BLOCKSPARE_PLUGIN_URL . 'src/assets/js/countup/jquery.counterup' . $min . '.js', array('waypoint'), true);
         
-        wp_enqueue_script('waypoint', BS_PLUGIN_URL . 'src/assets/js/countup/waypoints.min.js', array('jquery'), '', true);
-        wp_register_script('circle-progress', BS_PLUGIN_URL . 'src/assets/js/skillbar/circle-progress.min.js', array('jquery'), '', true);
+        wp_enqueue_script('waypoint', BLOCKSPARE_PLUGIN_URL . 'src/assets/js/countup/waypoints.min.js', array('jquery'), '', true);
+        wp_register_script('circle-progress', BLOCKSPARE_PLUGIN_URL . 'src/assets/js/skillbar/circle-progress.min.js', array('jquery'), '', true);
         wp_enqueue_script('jquery-masonry');
         
-        wp_enqueue_script('blockspare-script', BS_PLUGIN_URL . 'src/assets/js/frontend.js', array('jquery', 'waypoint', 'countup'), '', true);
+        wp_enqueue_script('blockspare-script', BLOCKSPARE_PLUGIN_URL . 'src/assets/js/frontend.js', array('jquery', 'waypoint', 'countup'), '', true);
         
     }
     
@@ -44,7 +44,7 @@
             // Register our block script with WordPress
             wp_enqueue_script(
                 'blockspare-blocks-block-js',
-                BS_PLUGIN_URL . 'dist/blocks.build.js',
+                BLOCKSPARE_PLUGIN_URL . 'dist/blocks.build.js',
                 array('wp-blocks', 'wp-i18n', 'wp-element', 'wp-components', 'wp-editor')
             );
             
@@ -53,7 +53,7 @@
             if (is_admin()) :
                 wp_enqueue_style(
                     'blockspare-block-edit-style',
-                    BS_PLUGIN_URL . 'dist/blocks.editor.build.css',
+                    BLOCKSPARE_PLUGIN_URL . 'dist/blocks.editor.build.css',
                     array('wp-edit-blocks')
                 );
             endif;
@@ -65,15 +65,15 @@
                 filemtime(plugin_dir_path(__FILE__) . 'assets/fontawesome/css/all.css')
             );
             
-            $blockspare_priview_img_url = BS_PLUGIN_URL . 'src/assets/blockspare-placeholder-img.jpg';
-            $blockspare_food_img_url = BS_PLUGIN_URL .'src/assets/blockspare-placeholder-img-square.jpg';
+            $blockspare_priview_img_url = BLOCKSPARE_PLUGIN_URL . 'src/assets/blockspare-placeholder-img.jpg';
+            $blockspare_food_img_url = BLOCKSPARE_PLUGIN_URL .'src/assets/blockspare-placeholder-img-square.jpg';
             
     
             wp_localize_script(
                 'blockspare-blocks-block-js',
                 'blockspare_globals',
                 array(
-                    'srcUrl' => untrailingslashit( plugins_url( '/', BS_BASE_DIR.'/src/blocks/') ),
+                    'srcUrl' => untrailingslashit( plugins_url( '/', BLOCKSPARE_BASE_DIR.'/src/blocks/') ),
                     'rest_url' => esc_url(rest_url()),
                     'img'=>$blockspare_priview_img_url,
                     'menu_img_url'=>$blockspare_food_img_url
@@ -92,9 +92,9 @@
     {
         
         //Load Gutenberg Block php Files
-        include(BS_PLUGIN_DIR . '/src/blocks/social-sharing/index.php');
-        include(BS_PLUGIN_DIR . '/src/blocks/latest-posts-grid/index.php');
-        include(BS_PLUGIN_DIR . '/src/blocks/latest-posts-list/index.php');
+        include(BLOCKSPARE_PLUGIN_DIR . '/src/blocks/social-sharing/index.php');
+        include(BLOCKSPARE_PLUGIN_DIR . '/src/blocks/latest-posts-grid/index.php');
+        include(BLOCKSPARE_PLUGIN_DIR . '/src/blocks/latest-posts-list/index.php');
         
         
     }
@@ -106,7 +106,7 @@
     
     function blockspare_enqueue_admin_style()
     {
-        wp_enqueue_style('slick', BS_PLUGIN_URL . 'src/assets/slick/css/slick.css', array(), '', 'all');
+        wp_enqueue_style('slick', BLOCKSPARE_PLUGIN_URL . 'src/assets/slick/css/slick.css', array(), '', 'all');
     }
     
     
